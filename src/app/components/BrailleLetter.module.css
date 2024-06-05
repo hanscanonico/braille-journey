@@ -1,0 +1,18 @@
+.brailleCell {
+    display: grid;
+    grid-template-columns: repeat(2, 20px);
+    grid-template-rows: repeat(3, 20px);
+    gap: 5px;
+  }
+  
+  .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .raised {
+    background-color: #000;
+  }
+  

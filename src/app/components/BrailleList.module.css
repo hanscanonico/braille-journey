@@ -1,0 +1,40 @@
+.brailleList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.brailleItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  font-size: 1.2em;
+  color: #333; /* Dark text color for better readability */
+}
+
+.letter {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.brailleCell {
+  display: grid;
+  grid-template-columns: repeat(2, 20px);
+  grid-template-rows: repeat(3, 20px);
+  gap: 5px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.raised {
+  background-color: #000;
+}
