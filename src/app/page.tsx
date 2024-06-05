@@ -11,7 +11,7 @@ const Home = async () => {
   return (
     <div>
       <header className="bg-blue-600 text-white py-6">
-        <h1 className="text-center text-4xl font-bold">Braille Alphabet</h1>
+        <h1 className="text-center text-4xl font-bold">Learn Braille</h1>
       </header>
       <div className="mt-10 text-center">
         <Link href="/exercise" className="bg-blue-500 text-white px-4 py-2 rounded">
