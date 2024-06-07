@@ -93,6 +93,9 @@ const Exercise = ({ brailleData }: ExerciseProps) => {
                     </div>
                 )}
             </div>
+            <footer className="text-black-500 py-4 text-center">
+                <p>&copy; 2024 Learn Braille. All rights reserved.</p>
+            </footer>
         </div >
     );
 };

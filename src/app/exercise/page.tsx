@@ -13,7 +13,9 @@ const ExercisePage = async () => {
     const brailleData = await getBrailleLetters();
 
     return (
-        <Exercise brailleData={brailleData} />
+        <>
+            <Exercise brailleData={brailleData} />
+        </>
     );
 };
 
